@@ -14,54 +14,18 @@ using CNN for classifying types of root
 > The `pyimagesearch` directory is a Python module containing `simplenet.py` . The `SimpleNet`  architecture is a Keras deep learning architecture I designed for root health classification. 
 > 
 > We’ll then train our network with `train_network.py` , producing `plot.png` , our training plot.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+## Training Procedure
+> for starting the train procedure ,you can run following command :
+```
+python train_network.py --dataset dataset
+```
+> after ending, you can able to see the results,such as below :
+>
+![plot](https://user-images.githubusercontent.com/53394692/111522023-11854b80-876f-11eb-9cbf-f617ff290abc.png)
+>
+> and see results as below :
+> 
+![result](https://user-images.githubusercontent.com/53394692/111522209-4c877f00-876f-11eb-8ee9-be165d44d843.PNG)
 
 ## License
 > [Deep learning, hydroponics, and medical marijuana](https://www.pyimagesearch.com/2018/10/15/deep-learning-hydroponics-and-medical-marijuana/) by Adrian Rosebrock
